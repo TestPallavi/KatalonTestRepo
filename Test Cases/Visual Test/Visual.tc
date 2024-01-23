@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Visual</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a26afd33-c918-45dc-9f21-ef67db5b8705</testCaseGuid>
+   <variable>
+      <defaultValue>findTestObject('Elements-Textbox/Page_DEMOQA/input_Full Name_userName')</defaultValue>
+      <description></description>
+      <id>141a1425-40b6-4632-a6ea-c12119f9654e</id>
+      <masked>false</masked>
+      <name>FullName</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Elements-Textbox/Page_DEMOQA/input_Email_userEmail')</defaultValue>
+      <description></description>
+      <id>7a75f371-9a30-4590-b750-5edc807a0353</id>
+      <masked>false</masked>
+      <name>Email</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Elements-Textbox/Page_DEMOQA/textarea_Current Address_currentAddress')</defaultValue>
+      <description></description>
+      <id>c26edf74-4c27-4c7c-824e-9e6f2353719f</id>
+      <masked>false</masked>
+      <name>CurrentAddress</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Elements-Textbox/Page_DEMOQA/textarea_Permanent Address_permanentAddress')</defaultValue>
+      <description></description>
+      <id>18acb041-eab0-4357-bd2e-6997ba57def2</id>
+      <masked>false</masked>
+      <name>PermanentAddress</name>
+   </variable>
+</TestCaseEntity>

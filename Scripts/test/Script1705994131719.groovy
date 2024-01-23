@@ -17,15 +17,3 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('https://demoqa.com/elements')
-
-WebUI.maximizeWindow()
-
-WebUI.scrollToElement(findTestObject('CheckBox/Page_DEMOQA/span_Check Box'), 0)
-
-WebUI.click(findTestObject('Object Repository/CheckBox/Page_DEMOQA (1)/span_Check Box'))
-
-WebUI.click(findTestObject('Object Repository/CheckBox/Page_DEMOQA (1)/svg_Book Store API_rct-icon rct-icon-uncheck'))
-

@@ -19,13 +19,17 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://demoqa.com/elements')
+WebUI.navigateToUrl('https://demoqa.com/modal-dialogs')
 
 WebUI.maximizeWindow()
 
-WebUI.scrollToElement(findTestObject('CheckBox/Page_DEMOQA/span_Check Box'), 0)
+WebUI.scrollToElement(findTestObject('Frames/Page_DEMOQA/li_Modal Dialogs'), 0)
 
-WebUI.click(findTestObject('Object Repository/CheckBox/Page_DEMOQA (1)/span_Check Box'))
+WebUI.click(findTestObject('Object Repository/Frames/Page_DEMOQA/button_Small modal'))
 
-WebUI.click(findTestObject('Object Repository/CheckBox/Page_DEMOQA (1)/svg_Book Store API_rct-icon rct-icon-uncheck'))
+WebUI.click(findTestObject('Object Repository/Frames/Page_DEMOQA/button_Close'))
+
+WebUI.click(findTestObject('Object Repository/Frames/Page_DEMOQA/button_Large modal'))
+
+WebUI.click(findTestObject('Object Repository/Frames/Page_DEMOQA/button_Close_1'))
 

@@ -19,13 +19,17 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://demoqa.com/elements')
+WebUI.navigateToUrl('https://demoqa.com/frames')
 
 WebUI.maximizeWindow()
 
-WebUI.scrollToElement(findTestObject('CheckBox/Page_DEMOQA/span_Check Box'), 0)
+WebUI.scrollToElement(findTestObject('Frames/Page_DEMOQA/li_Frames'), 0)
 
-WebUI.click(findTestObject('Object Repository/CheckBox/Page_DEMOQA (1)/span_Check Box'))
+not_run: String s = WebUI.getText(findTestObject('Page_DEMOQA/h1_This is a sample page'))
 
-WebUI.click(findTestObject('Object Repository/CheckBox/Page_DEMOQA (1)/svg_Book Store API_rct-icon rct-icon-uncheck'))
+not_run: println(s)
+
+not_run: String s1 = WebUI.getText(findTestObject('Object Repository/Frames/Page_DEMOQA/h1_This is a sample page'))
+
+not_run: println(s1)
 

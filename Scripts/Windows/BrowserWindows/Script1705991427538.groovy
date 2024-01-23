@@ -19,13 +19,21 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://demoqa.com/elements')
+WebUI.navigateToUrl('https://demoqa.com/alertsWindows')
 
 WebUI.maximizeWindow()
 
-WebUI.scrollToElement(findTestObject('CheckBox/Page_DEMOQA/span_Check Box'), 0)
+WebUI.scrollToElement(findTestObject('Windows/Page_DEMOQA/span_Browser Windows'), 0)
 
-WebUI.click(findTestObject('Object Repository/CheckBox/Page_DEMOQA (1)/span_Check Box'))
+WebUI.click(findTestObject('Object Repository/Windows/Page_DEMOQA/span_Browser Windows'))
 
-WebUI.click(findTestObject('Object Repository/CheckBox/Page_DEMOQA (1)/svg_Book Store API_rct-icon rct-icon-uncheck'))
+WebUI.click(findTestObject('Object Repository/Windows/Page_DEMOQA/button_New Tab'))
+
+not_run: WebUI.switchToWindowTitle('')
+
+not_run: WebUI.click(findTestObject('Object Repository/Windows/Page_DEMOQA/button_New Window'))
+
+not_run: WebUI.switchToWindowUrl('')
+
+not_run: WebUI.click(findTestObject('Object Repository/Windows/Page_DEMOQA/button_New Window Message'))
 

@@ -23,9 +23,15 @@ WebUI.navigateToUrl('https://demoqa.com/elements')
 
 WebUI.maximizeWindow()
 
-WebUI.scrollToElement(findTestObject('CheckBox/Page_DEMOQA/span_Check Box'), 0)
+WebUI.scrollToElement(findTestObject('Links/Page_DEMOQA/li_Links'), 0)
 
-WebUI.click(findTestObject('Object Repository/CheckBox/Page_DEMOQA (1)/span_Check Box'))
+WebUI.click(findTestObject('Object Repository/Links/Page_DEMOQA/li_Links'))
 
-WebUI.click(findTestObject('Object Repository/CheckBox/Page_DEMOQA (1)/svg_Book Store API_rct-icon rct-icon-uncheck'))
+WebUI.click(findTestObject('Object Repository/Links/Page_DEMOQA/a_Home'))
+
+WebUI.switchToWindowTitle('DEMOQA')
+
+WebUI.scrollToElement(findTestObject('Links/Page_DEMOQA/div_Forms'), 0)
+
+WebUI.click(findTestObject('Object Repository/Links/Page_DEMOQA/div_Forms'))
 
